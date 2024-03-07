@@ -1,0 +1,124 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(229, 229, 247);
+}
+
+.iconeLogo {
+    width: 50px;
+    height: 50px;
+}
+
+.sessaoCorpo {
+    display: flex;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
+.textoNormal {
+    display: flex;
+    margin-top: 168px;
+    margin-left: 200px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0a3871;
+    background-color: rgb(229, 229, 247);
+    border: none;
+    resize: none;
+}
+
+.inputEBotoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagemGarotoLupaTexto {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 1200px;
+    border-radius: 32px;
+    padding: 32px;
+    flex-direction: column;
+}
+
+.textoMensagemNaoEncontrada {
+    font-family: 'Inter';
+    text-align: center;
+
+}
+
+.mensagemAusente {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.botaoCopiar {
+    border-radius: 24px;
+    width: 336px;
+    height: 67px;
+    border-color: #0a3871;
+    background-color: #c40c0c;
+    margin-top: 700px;
+}
+
+.mensagemDigiteTexto {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footerIconeParagrafo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 328px;
+}
+
+.textoNormal::placeholder {
+    color: #0a3871;
+    opacity: 1;
+}
+
+.botoesCriptografarDescriptografar {
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+}
+
+.botaoCriptografar {
+    background-color: #0a3871;
+    color: #D8DFE8;
+    width: 328px;
+    padding: 24px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+.botaoDescriptografar {
+    background-color: #D8DFE8;
+    bottom: 10px solid #0a3871;
+    color: #0a3871;
+    width: 328px;
+    padding: 24px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 24px;
+}
